@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oleg Strygun - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-4 max-w-4xl bg-white shadow-lg my-8 rounded-lg">
+        <!-- Header Section -->
+        <header class="border-b border-gray-200 pb-6 mb-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div>
+                    <h1 class="text-3xl font-bold text-gray-800">Oleg Strygun</h1>
+                    <p class="text-xl text-gray-600 mt-1">Senior Software Engineer/Solutions Developer</p>
+                    <div class="flex items-center mt-2 text-gray-600">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        <span>Mountain View, California</span>
+                    </div>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <div class="flex items-center text-gray-600 mb-2">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <span>ostrygun@gmail.com</span>
+                    </div>
+                    <div class="flex items-center text-gray-600">
+                        <i class="fas fa-globe mr-2"></i>
+                        <a href="https://github.com/ollls" class="text-blue-600 hover:underline">github.com/ollls</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Skills Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Skills</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Scala</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Cats Effect</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Functional Programming</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Java</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">REST APIs</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Single Sign-On (SSO)</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">LDAP</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Web Services</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Back-End Web Development</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">OAuth</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">JWT</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">PKI</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">SAML</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">C/C++</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Technical Engineering</span>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Experience</h2>
+            
+            <!-- Intuit -->
+            <div class="mb-6 border-l-4 border-blue-500 pl-4">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Senior Software Engineer/Solutions Developer (Web SSO, Identity and Access)</h3>
+                        <p class="text-lg text-gray-600">Intuit</p>
+                    </div>
+                    <p class="text-gray-600 mt-1 md:mt-0">Mar 2012 - Present · 13 yrs 2 mos</p>
+                </div>
+                <p class="text-gray-600 mb-2">Mountain View</p>
+                <div class="text-gray-700 space-y-2">
+                    <p>Enterprise micro-service architecture, multi-cloud federation, web security, SaaS SSO integrations, PKI, LDAP Directory Services, IAM.</p>
+                    <p class="font-semibold mt-2">Responsibilities:</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Developed and maintained RESTful APIs for enterprise RBAC user access management across AWS, GCP, and Azure.</li>
+                        <li>Integrated APIs with internal developer portal, ensuring cohesive user interfaces for role and access management.</li>
+                        <li>Enhanced security through OAuth, JWT, and MFA.</li>
+                        <li>Optimized API performance for better response times and reliability across cloud services.</li>
+                        <li>Architected high-performance microservices using functional programming paradigms with Scala and Cats Effect.</li>
+                        <li>Implemented non-blocking I/O patterns for scalable, concurrent request processing in enterprise applications.</li>
+                    </ul>
+                    
+                    <p class="font-semibold mt-3">Open Source Contributions:</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li class="mb-2">
+                            <span class="font-medium">Lead architect and developer of quartz-h2:</span> A high-performance HTTP/2 web server built with Scala and Cats Effect
+                            <ul class="list-circle pl-5 space-y-1 mt-1">
+                                <li>Designed pure functional architecture using monadic compositions for asynchronous operations</li>
+                                <li>Implemented advanced flow control and stream processing with fs2</li>
+                                <li>Created efficient I/O multiplexing for handling thousands of concurrent connections</li>
+                                <li>Developed Linux io_uring integration for optimized asynchronous I/O operations</li>
+                                <li>Built comprehensive HTTP/2 protocol support including multiplexing, header compression</li>
+                                <li>Implemented TLS with SNI support for secure communications</li>
+                                <li>Designed a clean, type-safe API for route definitions and request handling</li>
+                            </ul>
+                        </li>
+                        <li><span class="font-medium">Developer of zio-tls-http server:</span> A functional HTTP server implementation using ZIO</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Applied Materials -->
+            <div class="mb-6 border-l-4 border-blue-500 pl-4">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Architect, Web Security and Access Management</h3>
+                        <p class="text-lg text-gray-600">Applied Materials</p>
+                    </div>
+                    <p class="text-gray-600 mt-1 md:mt-0">Nov 2008 - Mar 2012 · 3 yrs 5 mos</p>
+                </div>
+                <div class="text-gray-700">
+                    <p>Lead SSO/Web Access Architect, responsible for Company's authentication and authorization framework, its interaction with client applications, web services and all relevant aspects related to users' identities, information safety and data security, end to end solution design/implementation in the following areas: web single sign-on, directory services, authentication, PKI, SAML/WS-FED federated access to business applications: SAP/Oracle/Siemens PLM/Workday, SAML access to off-site partners, on-site application SSO integration, infrastructural application development based on the following APIs: RSA SecurID API, Java GSS-API, OpenSSO's AM SDK, J2EE/JSP, JNDI, Shiboleth SAML, OpenToken, Bouncy Castle, OpenSSL, CRAM/HMAC MD5, OAuth, MS Outlook plugins, PKI SCEP.</p>
+                </div>
+            </div>
+            
+            <!-- Safeway -->
+            <div class="mb-6 border-l-4 border-blue-500 pl-4">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Sr. Directory and Identity Engineer</h3>
+                        <p class="text-lg text-gray-600">Safeway</p>
+                    </div>
+                    <p class="text-gray-600 mt-1 md:mt-0">Feb 2006 - Nov 2008 · 2 yrs 10 mos</p>
+                </div>
+                <div class="text-gray-700">
+                    <p>Senior Software Engineer responsible for authentication/authorization infrastructure, LDAP Directory Services, topology, replication, performance optimization, authentication & identity related APIs design, development and consulting.</p>
+                </div>
+            </div>
+            
+            <!-- LASTH/DHL -->
+            <div class="mb-6 border-l-4 border-blue-500 pl-4">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Software Engineer</h3>
+                        <p class="text-lg text-gray-600">LASTH/DHL</p>
+                    </div>
+                    <p class="text-gray-600 mt-1 md:mt-0">Mar 2004 - Jan 2006 · 1 yr 11 mos</p>
+                </div>
+                <div class="text-gray-700">
+                    <p>Java/C/C++ software developer, responsible for authentication and authorization APIs and Company's LDAP directory services.</p>
+                </div>
+            </div>
+            
+            <!-- PTC -->
+            <div class="mb-6 border-l-4 border-blue-500 pl-4">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Software Engineer</h3>
+                        <p class="text-lg text-gray-600">PTC</p>
+                    </div>
+                    <p class="text-gray-600 mt-1 md:mt-0">2001 - 2004 · 3 yrs</p>
+                </div>
+                <div class="text-gray-700">
+                    <p>C/C++ Developer of Company's flagship product Pro/Engineer.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm mt-8 pt-4 border-t border-gray-200">
+            <p>Last updated: April 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
